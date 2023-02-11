@@ -8,11 +8,11 @@ import Tours from './components/Tours'
 function App() {
 	return (
 		<>
-			<Hero />
 			<Navbar />
+			<Hero />
+			<About />
 			<Services />
 			<Tours />
-			<About />
 			<Footer />
 		</>
 	)
